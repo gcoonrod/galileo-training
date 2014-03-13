@@ -27,7 +27,8 @@ module.exports = function(grunt){
 					'views/**/*',
 					'css/**/*',
 					'scripts/**/*',
-					'test/**/*'
+					'test/**/*', 
+					'index.html'
 				],
 				tasks: ['htmlhint'],
 				options: {
@@ -47,7 +48,8 @@ module.exports = function(grunt){
 					'style-disabled': true
 				},
 				src: [
-					'views/**/*.html'
+					'views/**/*.html', 
+					'index.html'
 				]
 			}
 		},
