@@ -3,12 +3,12 @@ define('routes', ['app', 'config', 'galileo.ctrl'], function (app){
 		$routeProvider.when('/', {
 			templateUrl: 'views/main.html', 
 			controller: 'GalileoMainController'
-		}).
-		when('/galileo', {
-			templateUrl: 'views/galileo/galileo.html', 
-			controller: 'GalileoMainController'
-		}).
-		otherwise({
+		});
+		// when('/galileo', {
+		// 	templateUrl: 'views/galileo/galileo.html', 
+		// 	controller: 'GalileoMainController'
+		// }).
+		$routeProvider.otherwise({
 			redirectTo: '/'
 		});
 	}]);

@@ -11,7 +11,8 @@
 	}
 
 	var cssArray = [
-		"css/bootstrap/bootstrap.css"
+		"css/bootstrap/css/bootstrap.css",
+		"css/app.css"
 	];
 
 	loadCSS(cssArray);
