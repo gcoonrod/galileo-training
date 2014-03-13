@@ -58,21 +58,14 @@ module.exports = function(grunt){
 			options: {
 				eqeqeq: true,
 				browser: true,
+				'-W099': true,
+				'-W030': true,
 				globals: {
 					jQuery: true,
 					devel: true,
 					worker: true,
 					angular: true
 				}
-			},
-			ignore_warning: {
-				options: {
-					'-W099': true,
-					'-W030': true
-				},
-				src: [
-					''
-				]
 			},
 			files: {
 				src: [
@@ -90,5 +83,5 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 
 	grunt.registerTask('server', ['build', 'connect:client', 'watch:client']);
-	grunt.registerTask('build', ['htmlhint']);
-}
+	grunt.registerTask('build', ['htmlhint', 'jshint']);
+};

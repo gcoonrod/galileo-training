@@ -1,0 +1,15 @@
+<carousel interval="interval">
+	<slide ng-repeat="slide in slides" active="slide.active">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title">{{slide.title}}</h2>
+			</div>
+			<div class="panel-body">
+				{{slide.content}}
+			</div>
+			<div class="panel-footer">
+				{{slide.footer}}
+			</div>
+		</div>
+	</slide>
+</carousel>

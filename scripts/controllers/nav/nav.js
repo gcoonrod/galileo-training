@@ -4,4 +4,4 @@ define('nav', ['app', 'config', 'bootstrap', 'galileo.ctrl'], function (app, con
 	}]);
 
 	return navCtrl;
-})
+});
