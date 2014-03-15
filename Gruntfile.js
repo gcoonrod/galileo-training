@@ -15,7 +15,8 @@ module.exports = function(grunt){
 				options: {
 					port: 9001,
 					hostname: 'localhost',
-					base: '',
+					base: '.',		//For Windows
+					//base: '/Users/gcoonrod/dev/galileo-training/', //For Mac
 					middleware: livereloadMiddleware 
 				}
 			}
@@ -83,6 +84,8 @@ module.exports = function(grunt){
 			}
 		}
 	});
+
+
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-connect');
