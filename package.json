@@ -1,6 +1,6 @@
 {
   "name": "galileo-training",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AngularJS App for Intel Galileo Training",
   "main": "index.html",
   "directories": {
