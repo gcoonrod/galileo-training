@@ -7,7 +7,7 @@ define('galileo.ctrl', ['app', 'config', 'nav', 'highlight', 'ui-bootstrap', 'un
 		$scope.interval = 5000;
 		$scope.activeSlide = {};
 
-		$scope.totalItems = 0;
+		$scope.totalItems = 64;
 		$scope.currentPage = 1;
 		$scope.maxSize = 5;
 
@@ -22,7 +22,7 @@ define('galileo.ctrl', ['app', 'config', 'nav', 'highlight', 'ui-bootstrap', 'un
 
 		$http.get('data/slides.json').success(function (data){
 			$scope.slides = data;
-			$scope.totalItems = data.length;
+			$scope.maxSize = data.length;
 			$scope.setPage(1);
 
 			console.log($scope);
