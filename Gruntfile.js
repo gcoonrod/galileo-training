@@ -4,7 +4,7 @@ module.exports = function(grunt){
 	var livereloadMiddleware = function (connect, options){
 		return [
 			lrSnippet,
-			connect.static(options.base),
+			connect.static(String(options.base)),
 			connect.directory(options.base)
 		];
 	};

@@ -1,5 +1,14 @@
 [
-	{"title": "Test Slide", "content": "Test Content", "footer": "Test Footer"},
-	{"title": "Test Slide2", "content": "Test Content", "footer": "Test Footer"},
-	{"title": "Test Slide3", "content": "Test Content", "footer": "Test Footer"}
+	{
+		"num": 1,
+		"title": "Introducing Galileo",
+		"img": "./img/galileohires.jpg",
+		"text": "Welcome to the Intel Galileo"
+	},
+	{
+		"num": 2,
+		"title": "Download Arduino",
+		"img": "",
+		"text": "blah blah blah"
+	}
 ]

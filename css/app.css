@@ -5,3 +5,14 @@ body {
 .top-nav {
 	border-radius: 0px;
 }
+
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+	}
+
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
+}
