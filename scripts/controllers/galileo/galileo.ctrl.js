@@ -28,6 +28,10 @@ define('galileo.ctrl', ['app', 'config', 'nav', 'highlight', 'ui-bootstrap', 'un
 			console.log($scope);
 		});
 
+		$scope.activeUrl = function (){
+			return "./views/galileo/slides/slide_" + $scope.activeSlide.num + ".html";
+		};
+
 	}]);
 
 	return {};

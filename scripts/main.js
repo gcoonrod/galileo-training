@@ -14,6 +14,7 @@
 		//Library & Plugin
 		"css/bootstrap/css/bootstrap.css",
 		"css/highlightjs/monokai_sublime.css",
+		"css/font-awesome/css/font-awesome.min.css",
 
 		//User Defined
 		"css/app.css"

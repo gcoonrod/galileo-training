@@ -1,14 +1,70 @@
 [
 	{
 		"num": 1,
-		"title": "Introducing Galileo",
-		"img": "./img/galileohires.jpg",
-		"text": "Welcome to the Intel Galileo"
+		"title": "Working with Galileo"
 	},
 	{
 		"num": 2,
-		"title": "Download Arduino",
-		"img": "",
-		"text": "blah blah blah"
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 3,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 4,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 5,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 6,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 7,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 8,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 9,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 10,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 11,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 12,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 13,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 14,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 15,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 16,
+		"title": "Setup Development Environment"
+	},
+	{
+		"num": 17,
+		"title": "Setup Development Environment"
 	}
 ]
